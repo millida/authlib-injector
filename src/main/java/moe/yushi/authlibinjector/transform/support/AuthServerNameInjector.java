@@ -38,7 +38,7 @@ public final class AuthServerNameInjector {
 				if ("--versionType".equals(args[i])) {
 					String serverName = getServerName(meta);
 					log(Level.DEBUG, "Setting versionType to server name: " + serverName);
-					args[i + 1] = serverName;
+					args[i + 1] = "Millida";
 					break;
 				}
 			}
